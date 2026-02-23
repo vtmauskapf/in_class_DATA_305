@@ -1,12 +1,351 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valerie Mauskapf | Portfolio</title>
+  <meta name="description" content="Portfolio site: Neuroscience + Data Science, analytics, and human-centered work." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Valerie Mauskapf | Portfolio" />
+  <meta property="og:description" content="Neuroscience + Data Science, analytics, and human-centered work." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple paragraph of text on my first HTML page.</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">VM</span>
+        <span class="brand-text">Valerie Mauskapf</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle menu</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span aria-hidden="true">◐</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Neuroscience • Data Science • Analytics</p>
+          <h1>Building human-centered insights with data.</h1>
+          <p class="lead">
+            I’m a William &amp; Mary student studying Neuroscience with a Data Science minor, and I’ve worked in analytics at Dominion Energy.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View projects</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+
+          <div class="meta-row" role="list">
+            <div class="meta-pill" role="listitem">
+              <span class="meta-k">Current</span>
+              <span class="meta-v">Associate Business Performance Analyst (Dominion Energy)</span>
+            </div>
+            <div class="meta-pill" role="listitem">
+              <span class="meta-k">Education</span>
+              <span class="meta-v">William &amp; Mary — Neuroscience, Data Science minor</span>
+            </div>
+          </div>
+
+          <div class="link-row">
+            <!-- Replace # with your real links -->
+            <a class="link" href="https://www.linkedin.com/in/valeriemauskapf" target="_blank" rel="noreferrer noopener">
+              LinkedIn
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+              GitHub
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+              Resume (PDF)
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Highlights">
+          <div class="card">
+            <h2 class="card-title">Highlights</h2>
+            <ul class="bullets">
+              <li>Analytics work at Dominion Energy (Business Performance Analyst)</li>
+              <li>Internship recognition: Diversity Scholarship Award (Dominion post)</li>
+              <li>William &amp; Mary Dean’s List (Spring 2025)</li>
+              <li>Cross-disciplinary work: credited on W&amp;M theatre production crew</li>
+            </ul>
+
+            <div class="mini-grid">
+              <div class="mini">
+                <p class="mini-k">Focus</p>
+                <p class="mini-v">Dashboards • Metrics • Communication</p>
+              </div>
+              <div class="mini">
+                <p class="mini-k">Strength</p>
+                <p class="mini-v">Turning messy inputs into clear actions</p>
+              </div>
+            </div>
+          </div>
+          <p class="card-footnote">
+            Tip: swap this card with a headshot later (or keep it text-only).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>
+            I like work that blends people + data: understanding behavior, simplifying decisions, and building tools that make performance measurable.
+          </p>
+        </div>
+
+        <div class="two-col">
+          <div class="panel">
+            <h3>What I’m into</h3>
+            <ul class="bullets">
+              <li>Data analytics &amp; reporting (metrics, trends, dashboards)</li>
+              <li>Human behavior + decision-making (neuroscience &amp; psych)</li>
+              <li>Clear communication: making complex ideas easy to act on</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Snapshot</h3>
+            <dl class="dl">
+              <div>
+                <dt>School</dt>
+                <dd>William &amp; Mary</dd>
+              </div>
+              <div>
+                <dt>Study</dt>
+                <dd>Neuroscience (major) + Data Science (minor)</dd>
+              </div>
+              <div>
+                <dt>Work</dt>
+                <dd>Dominion Energy — Business performance / analytics</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section alt" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>A quick timeline (edit titles/dates/bullets to match your resume).</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Associate Business Performance Analyst <span class="muted">— Dominion Energy</span></h3>
+              <p class="muted">Richmond, VA • (Add dates)</p>
+              <ul class="bullets">
+                <li>Built and maintained reporting to track performance and safety-related metrics.</li>
+                <li>Translated stakeholder questions into measurable KPIs and clear visual summaries.</li>
+                <li>Collaborated across teams to standardize definitions and improve data quality.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Intern <span class="muted">— Dominion Energy</span></h3>
+              <p class="muted">(Add dates)</p>
+              <ul class="bullets">
+                <li>Recognized with a Diversity Scholarship Award (per LinkedIn post).</li>
+                <li>Supported analytics and operational improvement initiatives.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>William &amp; Mary <span class="muted">— Dean’s List</span></h3>
+              <p class="muted">Spring 2025</p>
+              <ul class="bullets">
+                <li>Named to the Dean’s List (Spring 2025).</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Three portfolio cards. Replace with your real work (links, screenshots, outcomes).</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Safety / Performance Dashboard</h3>
+            <p class="muted">
+              A dashboard concept to track near misses and leading indicators over time with clear definitions and drill-downs.
+            </p>
+            <ul class="tags" aria-label="Tags">
+              <li>Power BI</li>
+              <li>Excel</li>
+              <li>Metrics</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noreferrer noopener">Case study</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer noopener">Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>False Memory &amp; Misinformation Site</h3>
+            <p class="muted">
+              An educational website explaining how cognitive biases shape memory and how misinformation spreads.
+            </p>
+            <ul class="tags">
+              <li>UX</li>
+              <li>Writing</li>
+              <li>Research</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noreferrer noopener">Live site</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer noopener">Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Problem Decomposition Prompt Pipeline</h3>
+            <p class="muted">
+              A structured prompt workflow that turns vague problems into actionable task plans and evaluation criteria.
+            </p>
+            <ul class="tags">
+              <li>GenAI</li>
+              <li>Systems</li>
+              <li>Documentation</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noreferrer noopener">Write-up</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer noopener">Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Swap these to match what you want recruiters to notice first.</p>
+        </div>
+
+        <div class="skill-grid">
+          <div class="panel">
+            <h3>Analytics</h3>
+            <ul class="bullets">
+              <li>Excel (pivots, formulas, data cleaning)</li>
+              <li>Dashboards &amp; reporting</li>
+              <li>KPI definition &amp; metric governance</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Data</h3>
+            <ul class="bullets">
+              <li>Python (Pandas/NumPy basics)</li>
+              <li>Structured problem decomposition</li>
+              <li>Experiment design &amp; interpretation</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>People</h3>
+            <ul class="bullets">
+              <li>Stakeholder communication</li>
+              <li>DEI leadership &amp; facilitation</li>
+              <li>Clear writing &amp; presentations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Easy ways to reach you.</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="panel">
+            <h3>Let’s connect</h3>
+            <p class="muted">Replace the placeholders below with your real email + links.</p>
+            <div class="contact-links">
+              <a class="btn" href="mailto:your.email@example.com">Email me</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/valeriemauskapf" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+              <a class="btn ghost" href="#" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </div>
+          </div>
+
+          <div class="panel subtle">
+            <h3>One-liner</h3>
+            <p>
+              Neuroscience + Data Science student focused on analytics, communication, and human-centered decision support.
+            </p>
+            <p class="muted small">
+              Built for GitHub Pages • No framework • Fast + accessible
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted small">© <span id="year"></span> Valerie Mauskapf</p>
+        <a class="link small" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
