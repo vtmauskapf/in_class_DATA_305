@@ -1,304 +1,240 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Valerie Mauskapf | Portfolio</title>
-  <meta name="description" content="Portfolio site: Neuroscience + Data Science, analytics, and human-centered work." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Valerie Mauskapf</title>
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Valerie Mauskapf | Portfolio" />
-  <meta property="og:description" content="Neuroscience + Data Science, analytics, and human-centered work." />
-  <meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
 
-  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Home">
-        <span class="brand-mark" aria-hidden="true">VM</span>
-        <span class="brand-text">Valerie Mauskapf</span>
-      </a>
+<header class="site-header">
+<div class="container header-inner">
 
-      <nav class="nav" aria-label="Primary">
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
-          <span class="sr-only">Toggle menu</span>
-          <span aria-hidden="true">☰</span>
-        </button>
+<a class="brand" href="#">
+<span class="brand-mark">VM</span>
+<span class="brand-text">Valerie Mauskapf</span>
+</a>
 
-        <div class="nav-links" id="nav-links">
-          <a href="#about-me">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
-            <span aria-hidden="true">◐</span>
-          </button>
-        </div>
-      </nav>
-    </div>
-  </header>
+<nav class="nav">
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
 
-  <main id="main">
-    <!-- HERO -->
-    <section class="hero" id="about-me">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Neuroscience • Data Science • Analytics</p>
-          <h1>Building human-centered insights with data.</h1>
-          <p class="lead">
-            I’m a senior at William &amp; Mary majoring in Neuroscience with a Data Science minor.
-            I work part-time at Dominion Energy on business performance analytics and reporting.
-          </p>
+</div>
+</header>
 
-          <div class="cta-row">
-            <a class="btn primary" href="#experience">View experience</a>
-            <a class="btn" href="#contact">Get in touch</a>
-          </div>
 
-          <div class="meta-row" role="list">
-            <div class="meta-pill" role="listitem">
-              <span class="meta-k">Current</span>
-              <span class="meta-v">Part-Time Business Performance Analyst (Dominion Energy)</span>
-            </div>
-            <div class="meta-pill" role="listitem">
-              <span class="meta-k">Education</span>
-              <span class="meta-v">William &amp; Mary — Neuroscience (B.S.) • Data Science minor</span>
-            </div>
-          </div>
+<main>
 
-          <div class="link-row">
-            <a class="link" href="https://www.linkedin.com/in/valeriemauskapf/details/honors/" target="_blank" rel="noreferrer noopener">
-              LinkedIn
-              <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </div>
+<section class="hero">
 
-        <!-- ABOUT ME CARD (was Highlights) -->
-        <div class="hero-card" aria-label="About me">
-          <div class="card">
-            <h2 class="card-title">About me</h2>
+<div class="container hero-grid">
 
-            <!-- Headshot -->
-            <!-- Put your photo at: /assets/img/headshot.jpg (or change the src below) -->
-            <div class="headshot-wrap" aria-hidden="false">
-              <img
-                class="headshot"
-                src="assets/img/headshot.jpg"
-                alt="Headshot of Valerie Mauskapf"
-                loading="lazy"
-              />
-            </div>
+<div class="hero-copy">
 
-            <ul class="bullets">
-              <li>Part-time Business Performance Analyst at Dominion Energy</li>
-              <li>Senior at William &amp; Mary — Neuroscience major, Data Science minor</li>
-              <li>Interested in analytics, communication, and human-centered decision support</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+<p class="eyebrow">Neuroscience • Data Science • Analytics</p>
 
-    <!-- EXPERIENCE -->
-    <section class="section alt" id="experience">
-      <div class="container">
-        <div class="section-head">
-          <h2>Experience</h2>
-          <p>A timeline of roles and work I’ve done across analytics, research, and leadership.</p>
-        </div>
+<h1>Human-centered analytics.</h1>
 
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Operations Support Data Analytics Intern <span class="muted">— Dominion Energy</span></h3>
-              <p class="muted">May 2025 – Aug 2025</p>
-              <ul class="bullets">
-                <li>Supported the Operations Support Safety team using data analysis and visualization to improve reliability and accessibility of data.</li>
-                <li>Created interactive dashboards and reports in Power BI to monitor safety metrics, incident tracking, and respirator usage data across Virginia operations.</li>
-                <li>Assisted with reporting and visualization efforts for the Coastal Virginia Offshore Wind project.</li>
-                <li>Contributed to safety procedures and documentation supporting compliance with OSHA and internal standards.</li>
-              </ul>
-            </div>
-          </article>
+<div class="cta-row">
+<a class="btn primary" href="#experience">View experience</a>
+<a class="btn" href="#contact">Get in touch</a>
+</div>
 
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Innovation Team Member <span class="muted">— Commonwealth Cyber Initiative (CCI)</span></h3>
-              <p class="muted">Jan 2025 – Apr 2025 • Hybrid</p>
-              <ul class="bullets">
-                <li>Collaborated in a high-impact team environment to tackle real-world cybersecurity challenges for local companies and higher education.</li>
-                <li>Applied design thinking (empathy, observation, interviewing, brainstorming) to develop human-centered solutions.</li>
-                <li>Strengthened UX approach by prioritizing usability, accessibility, and seamless interaction within cybersecurity contexts.</li>
-                <li>Researched, tested ideas, and challenged assumptions to create actionable, creative solutions.</li>
-              </ul>
-            </div>
-          </article>
+<div class="meta-row">
 
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Undergraduate Researcher <span class="muted">— Cognition and Thinking Lab (William &amp; Mary)</span></h3>
-              <p class="muted">Aug 2024 – Dec 2024</p>
-              <ul class="bullets">
-                <li>Conducted research on internal confidence in memory and trust in technology (e.g., Google and AI) with a participant pool of 50.</li>
-                <li>Authored a research paper detailing findings on memory confidence and reliance on technology.</li>
-                <li>Developed a website on false memory and misinformation to support public understanding of cognitive biases.</li>
-                <li>Created and presented an AI pitch for a cognitive fatigue tracker to monitor and mitigate mental exhaustion.</li>
-              </ul>
-            </div>
-          </article>
+<div class="meta-pill">
+<span class="meta-k">Current</span>
+<span class="meta-v">Part-Time Business Performance Analyst at Dominion Energy</span>
+</div>
 
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Operations Support Management Intern <span class="muted">— Dominion Energy</span></h3>
-              <p class="muted">May 2024 – Aug 2024 • Richmond, VA • On-site</p>
-              <ul class="bullets">
-                <li>Cleaned, organized, and standardized chemical inventory data across Dominion Energy Virginia Power stations by updating the 3E Hazard Communication system and EI Assessor database.</li>
-                <li>Supported the Senior Safety Specialist in evaluating compliance with OSHA and internal safety regulations.</li>
-                <li>Audited and revised Safety Data Sheets to ensure accurate chemical safety documentation across combustion turbine sites.</li>
-                <li>Collaborated with teams across Power Generation, Power Construction, and Power Delivery to improve consistency in safety protocols and reporting.</li>
-                <li>Observed field operations (high-voltage transmission and distribution) to better align safety procedures with real-world practices.</li>
-              </ul>
-            </div>
-          </article>
+<div class="meta-pill">
+<span class="meta-k">Education</span>
+<span class="meta-v">B.S. in Neuroscience, Data Science Minor at William & Mary</span>
+</div>
 
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Undergraduate Researcher <span class="muted">— Cognitive Methods Lab (William &amp; Mary)</span></h3>
-              <p class="muted">Jan 2024 – May 2024</p>
-              <ul class="bullets">
-                <li>Conducted psychology research examining human cognition and behavior.</li>
-                <li>Designed and implemented experiments using naturalistic, correlational, and experimental methods.</li>
-                <li>Collected, cleaned, and analyzed behavioral data (SPSS) to identify patterns and test hypotheses.</li>
-                <li>Performed descriptive statistics, correlations, and regression analyses and communicated findings clearly.</li>
-              </ul>
-            </div>
-          </article>
+</div>
 
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Server <span class="muted">— Burger Bach</span></h3>
-              <p class="muted">Mar 2022 – Jan 2024 • Part-time</p>
-              <ul class="bullets">
-                <li>Provided high-quality service and ensured a positive dining experience for guests.</li>
-                <li>Managed multiple tables, accommodated dietary needs, and maintained strong menu knowledge.</li>
-                <li>Developed communication, multitasking, and problem-solving skills in a fast-paced environment.</li>
-              </ul>
-            </div>
-          </article>
+<div class="link-row">
 
-          <article class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-content">
-              <h3>Dean’s Early Research Initiative Intern <span class="muted">— Virginia Commonwealth University</span></h3>
-              <p class="muted">Jul 2021 – May 2022</p>
-              <ul class="bullets">
-                <li>Conducted hands-on lab research on silica and zirconia aerogels, supporting development of lightweight, porous engineering materials.</li>
-                <li>Analyzed nanoparticle formation using in-line photon correlation spectroscopy and communicated results to research mentors.</li>
-                <li>Presented findings at VCU’s Engineering Symposium.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
+<a class="link" href="https://www.linkedin.com/in/valeriemauskapf/details/honors/" target="_blank">
+LinkedIn ↗
+</a>
 
-        <!-- HONORS & AWARDS (under Experience) -->
-        <div class="section-head" style="margin-top: 48px;">
-          <h2>Honors &amp; awards</h2>
-          <p>Recognition for academic commitment, leadership, and community impact.</p>
-        </div>
+</div>
 
-        <div class="cards">
-          <article class="card">
-            <h3>Intern Excellence Scholarship Award <span class="muted">— Dominion Energy</span></h3>
-            <p class="muted">Aug 2025</p>
-            <p>
-              Awarded to interns who demonstrate academic commitment, drive to succeed, and a commitment to fostering a welcoming community.
-            </p>
-          </article>
+</div>
 
-          <article class="card">
-            <h3>Sarah “Sally” Ives Gore Gamma Kappa Sapphire Scholarship Award <span class="muted">— Kappa Kappa Gamma Foundation</span></h3>
-            <p class="muted">May 2025</p>
-            <p>
-              Awarded in recognition of academic achievement, leadership, and involvement within the Kappa Kappa Gamma sisterhood.
-            </p>
-          </article>
 
-          <article class="card">
-            <h3>Diversity Scholarship Award <span class="muted">— Dominion Energy</span></h3>
-            <p class="muted">Jul 2024</p>
-            <p>
-              Awarded to interns who demonstrate strong academic performance, leadership potential, and a commitment to advancing diversity, equity, and inclusion.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
+<div class="hero-card">
 
-    <!-- CONTACT -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-head">
-          <h2>Contact</h2>
-          <p>Reach me here:</p>
-        </div>
+<img
+class="headshot"
+src="assets/img/headshot.jpg"
+alt="Valerie Mauskapf"
+/>
 
-        <div class="contact-card">
-          <div class="panel">
-            <h3>Let’s connect</h3>
+</div>
 
-            <div class="contact-links">
-              <a class="btn" href="mailto:vtmauskapf22@gmail.com">vtmauskapf22@gmail.com</a>
-              <a class="btn ghost" href="tel:+18043500770">804-350-0770</a>
-              <a class="btn ghost" href="https://www.linkedin.com/in/valeriemauskapf/details/honors/" target="_blank" rel="noreferrer noopener">
-                LinkedIn
-              </a>
-            </div>
-          </div>
+</div>
 
-          <div class="panel subtle">
-            <h3>Quick note</h3>
-            <p>
-              Neuroscience + Data Science student focused on analytics, communication, and human-centered decision support.
-            </p>
-            <p class="muted small">
-              Built for GitHub Pages • Plain HTML/CSS • Fast + accessible
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+</section>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p class="muted small">© <span id="year"></span> Valerie Mauskapf</p>
-        <a class="link small" href="#top">Back to top ↑</a>
-      </div>
-    </footer>
-  </main>
 
-  <script src="assets/js/main.js"></script>
+<section id="experience" class="section">
 
-  <!-- Small inline helper so the year always updates even if main.js changes -->
-  <script>
-    (function () {
-      var y = document.getElementById("year");
-      if (y) y.textContent = new Date().getFullYear();
-    })();
-  </script>
+<div class="container">
+
+<h2>Experience</h2>
+
+<div class="timeline">
+
+
+<article class="timeline-item">
+
+<h3>Associate Business Performance Analyst — Dominion Energy</h3>
+
+<p class="muted">Jan 2026 – Present</p>
+
+<ul>
+<li>Support DEV safety performance initiatives by analyzing operational data and developing dashboards to track leading indicators across business units.</li>
+
+<li>Assist senior BPAs in translating safety metrics into insights that strengthen proactive risk identification and control implementation.</li>
+
+<li>Apply data analytics, visualization, and human-centered communication strategies to enhance safety culture and continuous learning.</li>
+</ul>
+
+</article>
+
+
+<article class="timeline-item">
+
+<h3>Operations Support Data Analytics Intern — Dominion Energy</h3>
+
+<p class="muted">May 2025 – Aug 2025</p>
+
+<ul>
+<li>Created interactive dashboards and reports in Power BI to monitor safety metrics and incident tracking.</li>
+
+<li>Supported safety data analysis across Dominion Energy Virginia operations.</li>
+
+<li>Contributed reporting support for the Coastal Virginia Offshore Wind project.</li>
+
+</ul>
+
+</article>
+
+
+<article class="timeline-item">
+
+<h3>Innovation Team Member — Commonwealth Cyber Initiative</h3>
+
+<p class="muted">Jan 2025 – Apr 2025</p>
+
+<ul>
+
+<li>Collaborated in a multidisciplinary team to address cybersecurity challenges for organizations and universities.</li>
+
+<li>Applied design thinking methods to develop human-centered security solutions.</li>
+
+<li>Conducted research, testing, and solution ideation within cybersecurity contexts.</li>
+
+</ul>
+
+</article>
+
+
+<article class="timeline-item">
+
+<h3>Undergraduate Researcher — Cognition & Thinking Lab</h3>
+
+<p class="muted">Aug 2024 – Dec 2024</p>
+
+<ul>
+
+<li>Conducted research examining confidence in human memory and reliance on technology.</li>
+
+<li>Analyzed experimental data and authored a research paper on memory confidence and technological reliance.</li>
+
+<li>Developed a website explaining false memory and misinformation.</li>
+
+</ul>
+
+</article>
+
+
+<article class="timeline-item">
+
+<h3>Operations Support Management Intern — Dominion Energy</h3>
+
+<p class="muted">May 2024 – Aug 2024</p>
+
+<ul>
+
+<li>Standardized chemical inventory data across Dominion Energy Virginia Power stations.</li>
+
+<li>Supported compliance efforts related to OSHA and internal safety standards.</li>
+
+<li>Reviewed safety documentation and collaborated across power generation teams.</li>
+
+</ul>
+
+</article>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="section">
+
+<div class="container">
+
+<h2>Contact</h2>
+
+<div class="contact-card">
+
+<p>Email: <a href="mailto:vtmauskapf22@gmail.com">vtmauskapf22@gmail.com</a></p>
+
+<p>Phone: <a href="tel:8043500770">804-350-0770</a></p>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/valeriemauskapf/details/honors/" target="_blank">
+linkedin.com/in/valeriemauskapf
+</a>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer class="site-footer">
+
+<div class="container">
+
+<p>© 2026 Valerie Mauskapf</p>
+
+</div>
+
+</footer>
+
+</main>
+
 </body>
+
 </html>
