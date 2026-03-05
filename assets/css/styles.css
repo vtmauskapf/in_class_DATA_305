@@ -362,3 +362,62 @@ h1{
 @media (max-width: 900px){
   .hero-grid{ grid-template-columns: 1fr; }
 }
+
+/* CONTACT SECTION */
+
+.contact-grid{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1.2rem;
+  margin-top:1.5rem;
+}
+
+.contact-item{
+  display:flex;
+  gap:.9rem;
+  align-items:center;
+  padding:1.2rem;
+  border-radius:18px;
+  background:rgba(255,255,255,.75);
+  border:1px solid var(--line);
+  box-shadow:var(--shadow2);
+}
+
+.contact-icon{
+  font-size:1.4rem;
+}
+
+.contact-label{
+  font-size:.85rem;
+  color:var(--muted);
+  margin:0;
+  font-weight:600;
+}
+
+.contact-link{
+  font-weight:700;
+  color:var(--text);
+}
+
+.linkedin-btn{
+  display:inline-block;
+  margin-top:.2rem;
+  padding:.45rem .75rem;
+  border-radius:10px;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  color:white;
+  font-weight:700;
+  font-size:.9rem;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+.linkedin-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:var(--shadow2);
+}
+
+@media (max-width:900px){
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+}
